@@ -1,5 +1,10 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+### Win OS ###
 /.idea/
+/.idea/*
+/homeworks.iml
+
+### UNIX OS ###
+.DS_Store
+\.idea\
+\.idea\*
+\homeworks.iml
