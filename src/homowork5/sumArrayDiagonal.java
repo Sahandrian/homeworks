@@ -12,8 +12,8 @@ public class sumArrayDiagonal {
 
         int[][] array = new int[n][n];
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 System.out.print("Enter element [" + (i+1)+ "][" + (j+1) + "]: ");
                 array[i][j] = scanner.nextInt();
             }
@@ -21,8 +21,8 @@ public class sumArrayDiagonal {
 
         int sumDiagonal = 0;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 if (i == j) {
                     sumDiagonal = sumDiagonal + array[i][j];
                 }
