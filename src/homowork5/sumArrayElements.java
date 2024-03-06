@@ -12,12 +12,12 @@ public class sumArrayElements {
 
         int sum = 0;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print("Enter element " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
         }
 
