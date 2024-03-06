@@ -19,9 +19,9 @@ public class printBiggestElementArray {
 
         bigNum = array[0];
 
-        for (int i = 0; i < array.length; i++) {
-            if (bigNum <= array[i]) {
-                bigNum = array[i];
+        for (int arrNum : array) {
+            if (bigNum < arrNum) {
+                bigNum = arrNum;
             }
         }
 
