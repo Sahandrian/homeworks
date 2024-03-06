@@ -2,9 +2,11 @@
 /.idea/
 /.idea/*
 /homeworks.iml
+/out/
 
 ### UNIX OS ###
 .DS_Store
 \.idea\
 \.idea\*
 \homeworks.iml
+\out\
