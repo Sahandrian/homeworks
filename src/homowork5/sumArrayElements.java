@@ -8,17 +8,18 @@ public class sumArrayElements {
 
         System.out.print("Enter the number of elements of Array: ");
         int n = scanner.nextInt();
-        int[] array = new int[n];
 
-        int sum = 0;
+        int[] array = new int[n];
 
         for (int i = 0; i < array.length; i++) {
             System.out.print("Enter element " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < array.length; i++) {
-            sum = sum + array[i];
+        int sum = 0;
+
+        for (int arrNum : array) {
+            sum = sum + arrNum;
         }
 
         System.out.print("Sum of all array elements = " + sum);
