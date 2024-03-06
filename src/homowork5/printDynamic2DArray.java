@@ -15,16 +15,16 @@ public class printDynamic2DArray {
 
         int[][] array = new int[row][col];
 
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 System.out.print("Enter element [" + (i+1)+ "][" + (j+1) + "]: ");
                 array[i][j] = scanner.nextInt();
             }
         }
 
-        for (int i = 0; i < row; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.println();
-            for (int j = 0; j < col; j++) {
+            for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j]+" ");
             }
         }
