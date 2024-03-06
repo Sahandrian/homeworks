@@ -12,14 +12,14 @@ public class printBiggestElementArray {
 
         int[] array = new int[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.print("Enter element " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
         }
 
         bigNum = array[0];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (bigNum <= array[i]) {
                 bigNum = array[i];
             }
